@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<title> Drop Down Sidebar Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="../admin_css/tabbar.css">
+    <link rel="stylesheet" href="../../css/total_content.css">
+    <link rel="stylesheet" href="../../css/profile.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<body>
+    <div class="sidebar close">
+        <div class="logo-details">
+            <img src="../../img/handy_logo2.png" width="70px" height="70px"></a>
+            <span class="logo_name">Admin</span>
+        </div>
+        <ul class="nav-links">
+
+            <li>
+                <a href="#">
+                    <i class='bx bxs-data' style='color:#ffbb00'></i>
+                    <span class="link_name">Manage data</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Profile</a></li>
+                </ul>
+            </li>
+
+            <!-- <li>
+                <a href="admin_notification.html">
+                    <i class='bx bx-bell'></i>
+                    <span class="link_name">Notification</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Notification</a></li>
+                </ul>
+            </li> -->
+
+
+            <li>
+                <a href="admin_setting.html">
+                    <i class='bx bx-cog'></i>
+                    <span class="link_name">Setting</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Setting</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+    <!--  ส่วนเนื้อหา -->
+    <section class="home-section">
+        <div class="home-content shadow">
+            <i class='bx bx-menu'></i>
+
+        </div>
+        </div>
+
+
+
+        <br><br>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+
+        <div class="d-flex justify-content-center  ">
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="wrimagecard wrimagecard-topimage">
+                        <a href="DatamanageArticle.html">
+
+                            <div class="wrimagecard-topimage_title">
+                                <h4 class="text-center ">Article
+
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                </div><br><br>
+
+                <br><br>
+                <div class="col-md-4 ">
+                    <div class="wrimagecard wrimagecard-topimage">
+                        <a href="DatamanageVdo.html">
+
+                            <div class="wrimagecard-topimage_title">
+                                <h4 class="text-center">Video
+                                    <div class="pull-right badge" id="WrControls"></div>
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <a href="#">
+
+                            <div class="wrimagecard-topimage_title">
+                                <h4 class="text-center text-warning">Product
+                                    <div class="pull-right badge" id="WrControls"></div>
+                                </h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <br>
+
+
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-10 col-lg-10">
+
+
+
+
+
+
+
+
+
+                <table class="table"id="tbresult" >
+                    <thead class="thead bg-warning" >
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col" >Image</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Detail</th>
+                            <th scope="col">Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="box">
+                        
+                 
+
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <script src="../../js/sidebar.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script src=></script>
+    <script src="../../js/firebase_connect.js"></script>
+    <script src="../admin_js/manageProduct.js"></script>
+    <script src="../js/post.js"></script>
+</body>
+
+</html>

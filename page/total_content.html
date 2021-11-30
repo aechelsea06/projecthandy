@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<title> Drop Down Sidebar Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="../css/tabbar.css">
+    <link rel="stylesheet" href="../css/total_content.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<body>
+    <div class="sidebar close">
+        <div class="logo-details">
+            <img src="../img/handy_logo2.png" width="70px" height="70px"></a>
+            <span class="logo_name">Handy</span>
+        </div>
+        <ul class="nav-links">
+
+            <li>
+                <a href="profile-blog.html">
+                    <i class='bx bx-user'></i>
+                    <span class="link_name">Profile</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Profile</a></li>
+                </ul>
+            </li>
+
+            <li >
+                <a href="total_content.html">
+                    <i class='bx bxs-grid-alt' style='color:#ffbb00'  ></i>
+                    <span class="link_name">Home</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Home</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="video.html">
+                    <i class='bx bx-play-circle'></i>
+                    <span class="link_name">Video</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Video</a></li>
+                </ul>
+            </li>
+
+
+
+            <li>
+                <a href="article.html">
+                    <i class='bx bx-detail'></i>
+                    <span class="link_name">Article</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Article</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="review.html">
+                    <i class='bx bx-store' ></i>
+                    <span class="link_name">Store</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Store</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="setting.html">
+                    <i class='bx bx-cog'></i>
+                    <span class="link_name">Setting</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Setting</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+
+    <!--  ส่วนเนื้อหา -->
+    <section class="home-section">
+        <div class="home-content shadow">
+            <i class='bx bx-menu'></i>
+
+        </div>
+        
+        <br>
+
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-10 col-lg-10">
+                <div class="" style="background-color: #ffffff;">
+                    <div class="">
+                        <div class="">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-11">
+                                    <div class="card " id="card">
+                                        <h3 class="heading mt-5 text-center">Welcome to DIY community</h3>
+                                        <div class="d-flex justify-content-center px-5">
+                                            <div class="search"> <input type="text" class="search-input"
+                                                    placeholder="Search..." name=""> <a href="#" class="search-icon"> <i
+                                                        class="fa fa-search"></i> </a> </div>
+                                        </div><br><br><br>
+                                        <!-- <div class="row mt-4 g-1 px-4 mb-5 d-flex justify-content-center">
+                                            <a href="toy.html" style="color: black;">
+                                                <div class="col-md-2">
+                                                    <div class="card-inner p-3 d-flex flex-column align-items-center">
+                                                        <img src="https://cdn-icons-png.flaticon.com/512/3261/3261169.png"
+                                                            width="50"><br>
+                                                        <div class="text-center mg-text"> <span
+                                                                class="mg-text">ของเล่น</span> </div>
+                                                    </div>
+                                            </a>
+                                        </div>
+                                        <a href="consumables.html" style="color: black;">
+                                            <div class="col-md-2">
+                                                <div class="card-inner p-3 d-flex flex-column align-items-center"> <img
+                                                        src="https://cdn-icons-png.flaticon.com/512/31/31353.png"
+                                                        width="50"><br>
+                                                    <div class="text-center mg-text"> <span
+                                                            class="mg-text">ของใช้</span> </div>
+                                                </div>
+                                        </a>
+                                    </div>
+
+                                    <a href="decoration.html" style="color: black;">
+                                        <div class="col-md-2">
+                                            <div class="card-inner p-3 d-flex flex-column align-items-center"> <img
+                                                    src="https://cdn-icons-png.flaticon.com/512/1380/1380111.png"
+                                                    width="50"><br>
+                                                <div class="text-center mg-text"> <span class="mg-text">ของตกแต่ง</span>
+                                                </div>
+                                            </div>
+                                    </a> -->
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+
+
+
+
+
+
+
+
+            <div class="container-fluid  ">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="wrimagecard wrimagecard-topimage">
+                            <a href="decoration.html">
+                                <div class="wrimagecard-topimage_header"
+                                    style="background-color:rgba(255, 255, 255, 0.1) ">
+                                    <center><i class="fa fa-tags" style="color:#ffbb00"></i></center>
+                                </div>
+                                <div class="wrimagecard-topimage_title">
+                                    <h4 class="text-center">ของตกแต่ง
+                                        
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="wrimagecard wrimagecard-topimage">
+                            <a href="toy.html">
+                                <div class="wrimagecard-topimage_header"
+                                    style="background-color: rgba(255, 255, 255, 0.1)">
+                                    <center><i class="fa fa-cubes" style="color:#ffbb00"></i></center>
+                                </div>
+                                <div class="wrimagecard-topimage_title">
+                                    <h4 class="text-center">ของเล่น
+                                        <div class="pull-right badge" id="WrControls"></div>
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="wrimagecard wrimagecard-topimage">
+                            <a href="consumables.html">
+                                <div class="wrimagecard-topimage_header"
+                                    style="background-color:  rgba(255, 255, 255, 0.1)">
+                                    <center><i  class="fa fa-gavel" style="color:#ffbb00"> </i></center>
+                                </div>
+                                <div class="wrimagecard-topimage_title">
+                                    <h4 class="text-center">ของใช้
+                                        <div class="pull-right badge" id="WrForms"></div>
+                                    </h4>
+                                </div>
+
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="wrimagecard wrimagecard-topimage">
+                            <a href="#">
+                            <div class="wrimagecard-topimage_header" style="background-color:  rgba(246, 246, 246, 0.1)">
+                               <center><i class="fa fa-exclamation" style="color:  rgb(22, 22, 22)"> </i></center>
+                            </div>
+                            <div class="wrimagecard-topimage_title">
+                              <h4 class="text-center">
+                              <div class="pull-right badge" id="WrGridSystem"></div></h4>
+                            </div>
+                            
+                          </a>
+                        </div>
+                      </div>
+                    
+               
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="heading mt-5 text-center">
+                <h3>บทความแนะนำ</h3>
+            </div>
+
+            <div>
+
+                <div class="card-deck" id="blog-vdo">
+                    <div class="card" id="card">
+                        <img class="card-img-top"
+                            src="https://static.trueplookpanya.com/cmsblog/3305/75305/thumb_file.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">สิ่งประดิษฐ์ของเหลือใช้</h5>
+                        </div>
+                    </div>
+                    <div class="card" id="card">
+                        <img class="card-img-top"
+                            src="https://static.trueplookpanya.com/cmsblog/3681/75681/thumb_file.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">งานประดิษฐ์ดอกไม้กระดาษ</h5>
+                        </div>
+                    </div>
+                    <div class="card" id="card">
+                        <img class="card-img-top"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuNRje5qLRbUkN2n4OWDpMmCpakjWQyyd0ZQ8AwS7cg426rOhkOYISM35W61krTGsk4uM&usqp=CAU"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">ไอเดียทำชั้นวาง</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--< vdo >-->
+            <a href="article.html">
+
+            </a>
+            <div>
+                <div id="blog-vdo">
+                    <div class="heading mt-5 text-center">
+                        <h3>วิดีโอแนะนำ</h3>
+
+                    </div><br><br>
+                    <div class="row">
+                        <div class="card mb-3" id="card" style="max-width: 100%;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <iframe width="200" height="150" src="https://www.youtube.com/embed/7Y_6MHwqx3M"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">เคล็ดลับและ DIY</h5>
+                                        <span class="card-text">เคล็ดลับและเทคนิคในชีวิตประจำวันที่จะเปลี่ยนชีวิตคุณ
+
+                                            การรู้เคล็ดลับจำนวนมากที่จะช่วยคุณในสถานการณ์ที่ยากลำบากนั้นสำคัญ
+                                            แต่บางครั้งคุณก็ต้องรู้ DIY อื่น ๆ เมื่อคุณอยากสนุกด้วยเช่นกัน</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="card mb-3" id="card" style="max-width: 100%;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <iframe width="200" height="150" src="https://www.youtube.com/embed/LHB5HYGR8d0"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">26 งาน DIY</h5>
+                                        <span class="card-text">26 งาน DIY อันโดดเด่นสำหรับสนามหน้าบ้านคุณ || งานแต่งบ้าน
+                                            DIYถ้าอย่างนั้น มาเริ่มกันเลยดีกว่า
+                                            ด้วยการนำเอาวัสดุต่างๆที่คุณไม่ได้ใช้แล้วมาทำให้เกิดประโยชน์
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3" id="card" style="max-width: 100%;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <iframe width="200" height="150" src="https://www.youtube.com/embed/HP8Rqv6rCNI"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">24 ไอเดียการทำของแต่งบ้าน</h5>
+                                        <span class="card-text">
+                                            เทคนิคอันน่าทึ่งบางอย่างที่จะช่วยให้บ้านของคุณดูดีดูทันสมัยมากยิ่งขึ้น
+                                            รวมถึงสำหรับคนที่อาศัยในอพาร์ทเมนต์ด้วย ถ้าอย่างนั้น มาเริ่มกันเลยดีกว่า
+                                            ด้วยการนำเอาวัสดุต่างๆที่คุณไม่ได้ใช้แล้วมาทำให้เกิดประโยชน์
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+        <!--< event >-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+    <script src="../js/sidebar.js"> </script>
+
+</body>
+
+</html>

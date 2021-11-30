@@ -1,0 +1,49 @@
+
+.slide_box{
+   width: 50%;
+   height: 50%;
+    margin-top: 10px 
+    
+}
+#box-title{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    
+}
+#card{
+    
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);  
+}
+#iconic{
+   
+    color: #000000;
+    font-size: 30px;
+    cursor: pointer;
+    
+  }
+
+.text-make{
+    line-height:14pt;
+	height:52pt;
+    
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    overflow: hidden;
+   width: 100%;
+}
+.text-{
+    
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    overflow: hidden;
+   width: 100%;
+}
+
+.box-color{
+background-color: #f6f6f7;
+
+}

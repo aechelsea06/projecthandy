@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<title> Drop Down Sidebar Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="../admin_css/tabbar.css">
+    <link rel="stylesheet" href="../../css/total_content.css">
+    <link rel="stylesheet" href="../../css/profile.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<body>
+    <div class="sidebar close">
+        <div class="logo-details">
+            <img src="../../img/handy_logo2.png" width="70px" height="70px"></a>
+            <span class="logo_name">Admin</span>
+        </div>
+        <ul class="nav-links">
+
+            <li>
+                <a  href="DatamanageArticle.html">
+                    <i class='bx bx-data' ></i>
+                    <span class="link_name">Manage data</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <box-icon name='data' ></box-icon>
+                </ul>
+            </li>
+
+            <!-- <li>
+                <a href="admin_notification.html">
+                    <i class='bx bx-bell'></i>
+                    <span class="link_name">Notification</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Notification</a></li>
+                </ul>
+            </li> -->
+
+           
+            <li>
+                <a  href="#">
+                    <i class='bx bxs-cog' style='color:#ffbb00'  ></i>
+                    <span class="link_name">Setting</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Setting</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+    <!--  ส่วนเนื้อหา -->
+    <section class="home-section">
+        <div class="home-content">
+            <i class='bx bx-menu'></i>
+
+        </div>
+        </div>
+        <div class="">
+            <hr class="style3">
+        </div>
+     
+
+        <div class="col-md-6 offset-md-3 card " id="card">
+            <button class="btn bg-white"><img src="https://cdn-icons-png.flaticon.com/512/159/159707.png" width="50px"
+                onclick="SignOutAdmin()"> Log Out</button>
+        </div>
+
+
+
+       
+
+        
+       
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <script src="../../js/sidebar.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script src="../../authen/login_register.js"></script>
+</body>
+
+</html>

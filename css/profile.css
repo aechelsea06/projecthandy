@@ -1,0 +1,67 @@
+.profile-dt{
+   text-align: center;
+   margin: auto;
+}
+.img img{
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.tetx-profile{
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.flexbox{
+    display: flex;
+    box-sizing: border-box;
+}
+.item{
+    display: block;
+    box-sizing: border-box;
+    width: 23%;
+    margin-left: 8%;
+}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: rgb(255, 255, 255); 
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: left;
+    text-align: center; 
+    width: 33.33%; 
+    padding: 2px;
+    transition: all 0.3s ease; 
+    color: rgb(0, 0, 0); 
+    font-size: 25px; 
+    border: 1px solid #e3e3e3;
+   
+   
+    
+    border-top: 1px solid #e0e0e0;
+    
+    
+
+
+  }
+  
+  .icon-bar a:hover {
+    background-color: rgb(255, 208, 0); 
+  }
+  #iconic{
+   
+    color: #046101;
+    font-size: 30px;
+    cursor: pointer;
+    
+  }
+
+
+  

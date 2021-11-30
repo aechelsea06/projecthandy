@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<title> Drop Down Sidebar Menu | CodingLab </title>-->
+    <link rel="stylesheet" href="../css/tabbar.css">
+    <link rel="stylesheet" href="../css/total_content.css">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<body>
+
+    <div class="sidebar close">
+        <div class="logo-details">
+            <img src="../img/handy_logo2.png" width="70px" height="70px"></a>
+            <span class="logo_name">Handy</span>
+        </div>
+        <ul class="nav-links">
+
+            <li>
+                <a href="profile-blog.html">
+                    <i class='bx bx-user'></i>
+                    <span class="link_name">Profile</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Profile</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="total_content.html">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="link_name">Home</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Home</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="video.html">
+                    <i class='bx bx-play-circle'></i>
+                    <span class="link_name">Video</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Video</a></li>
+                </ul>
+            </li>
+
+
+
+            <li>
+                <a href="article.html">
+                    <i class='bx bx-detail'></i>
+                    <span class="link_name">Article</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Article</a></li>
+                </ul>
+            </li>
+            <li>
+                <a  href="#">
+                    <i class='bx bxs-store' style='color:#ffbb00' ></i>
+                    <span class="link_name">Store</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Store</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="setting.html">
+                    <i class='bx bx-cog'></i>
+                    <span class="link_name">Setting</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Setting</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+    <!--  ส่วนเนื้อหา -->
+
+
+    <section class="home-section">
+        <div class="home-content shadow">
+
+            <i class='bx bx-menu'></i>
+
+        </div>
+        
+        <br>
+
+
+
+
+
+
+
+
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-3 col-sm-4">
+                    <div class="wrimagecard wrimagecard-topimage">
+                        <p href="#">
+                        <div class="wrimagecard-topimage_header" style="background-color:rgba(255, 200, 0, 0.1) ">
+                            <center><i data-toggle="modal" data-target="#exampleModal" class="fa fa-plus-square"
+                                    style="color:#ffd000"></i></center>
+                            <div>
+                                <div class="icon-bar">
+
+
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="indicator"></div>
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="media mb-3">
+
+
+                                                        <form class="md-form">
+
+                                                            <div>
+                                                                <h4 class="text-center">โพสต์ฝากร้าน</h4>
+                                                                <img src="../img/product.png" alt="" id="image"
+                                                                    width="100">
+
+                                                            </div>
+
+
+
+
+
+                                                            <label>Image Name</label><input class="form-control"
+                                                                type="text" id="nameimage"><label
+                                                                id="extlab"></label><br><br>
+
+                                                            <br>
+                                                            <div class="text-center">
+                                                                <button class="btn" id="selbtn"><img
+                                                                        src="../img/addimage.png" class="Bimg"
+                                                                        id="myimage"></button>
+                                                            </div>
+                                                            <br><br>
+
+
+
+                                                            <div class="form-outline mb-4">
+                                                                <input type="text" class="form-control" id="pd_name"
+                                                                    placeholder="หัวข้อ"></textarea>
+
+                                                            </div>
+                                                            <div class="form-outline mb-4">
+                                                                <textarea class="form-control" id="pd_detail" cols="100"
+                                                                    rows="4" placeholder="รายละเอียด"></textarea>
+
+                                                            </div>
+                                                            <p>Contact</p>
+
+
+                                                            <div class="form-outline mb-4">
+                                                                <input type="text" class="form-control" id="facebook"
+                                                                    placeholder="Facebook"></textarea>
+
+                                                            </div>
+                                                            <div class="form-outline mb-1">
+                                                                <textarea class="form-control" id="shop_link" cols="100"
+                                                                    rows="2" placeholder="ลิงก์"></textarea>
+
+                                                            </div>
+                                                    </div>
+                                                    </form>
+
+                                                </div>
+
+
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary btn-sm"
+                                                        data-dismiss="modal">Cancel</button>
+                                                    <button class="btn btn-info btn-warning" data-dismiss="modal"
+                                                        onclick="createProductPost()">Upload</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </button>
+
+                                    <!-- partial -->
+                                    <script
+                                        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+                                    <script
+                                        src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+                                    <script src='https://unpkg.com/popper.js@1'></script>
+                                    <script src='https://unpkg.com/tippy.js@4'></script>
+                                    <script
+                                        src='https://cdnjs.cloudflare.com/ajax/libs/autosize.js/4.0.2/autosize.min.js'></script>
+                                    <script
+                                        src='https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.4.0/perfect-scrollbar.min.js'></script>
+                                    <script
+                                        src='https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js'></script>
+
+
+
+                                </div></button>
+                            </div>
+                        </div>
+                        <div class="wrimagecard-topimage_title">
+                            <h4 class="text-center">ฝากร้าน
+                            </h4>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4">
+
+                </div>
+            </div>
+
+
+            <!--< product >-->
+            <br>
+
+
+
+
+            <div class="container-fluid  ">
+                <div class="row" id="box">
+
+
+
+
+                   
+
+
+
+
+
+                    
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <script src="../js/sidebar.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script src=></script>
+    <script src="../js/firebase_connect.js"></script>
+    <script src="../js/showdataProduct.js"></script>
+    <script src="../js/post.js"></script>
+</body>
+
+</html>
